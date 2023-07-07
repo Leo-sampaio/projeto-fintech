@@ -1,0 +1,70 @@
+body {
+    background-color: #131047;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.my-color{
+    background-color: #2C2966;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.resumo{
+    width: 400px;
+    height: 300px;
+    background-color: #A985FF;
+    display: grid;
+    grid-row: auto;
+    border-radius: 20px;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+.valores{
+    font-weight: bold;
+}
+
+.bigger-letter{
+    font-size: 1.25rem;
+}
+
+.organize {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0;
+}
+
+footer{
+    display: grid;
+    align-content: end;
+    position: relative;
+}
+
+.item-card {
+    margin: 30px 0 30px 10px;
+    width: 40%;
+}
+
+
+
+.botão {
+    background-color: #6800B8;
+    vertical-align: bottom;
+    position: absolute;
+    margin-top: auto;
+}
+
+.botão:hover{
+    background-color: #A985FF;
+    border-color: #6800B8;
+    color: #6800B8;
+}
